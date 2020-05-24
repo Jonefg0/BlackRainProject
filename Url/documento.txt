@@ -1,1 +1,6 @@
-Urls de trabajo
+Urls de trabajo:
+Requisitos de usuario:
+https://docs.google.com/document/d/1LQL20JKztR0mAxXpNmbzOiOznmpWElxYZ3wBKGynYYo/edit
+
+Requisitos de Software:
+https://docs.google.com/document/d/1UOuSbZ4i_tqSfddF9iOpnWndl_FquJsYVNwIhzObfAA/edit
