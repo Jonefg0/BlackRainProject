@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "514238941445",
+    "firebase_url": "https://suralumapp.firebaseio.com",
+    "project_id": "suralumapp",
+    "storage_bucket": "suralumapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514238941445:android:97f38b4526ad81749d0f6c",
+        "android_client_info": {
+          "package_name": "com.example.suralumapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "514238941445-n1pd89qqtdb4ld8ht3vuahmcmqbqsqs8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWKBnTDOxdfGCeIk-7RNcoryIeQhRamCg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "514238941445-n1pd89qqtdb4ld8ht3vuahmcmqbqsqs8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
