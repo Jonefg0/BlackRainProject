@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".cotizacion"></activity>
+        <activity android:name=".stock" />
+        <activity android:name=".ventanaseleccion" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
