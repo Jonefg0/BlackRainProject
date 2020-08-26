@@ -18,7 +18,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseAuthUserCollisionException;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class    MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     //defining view objects
     private EditText TextEmail;
@@ -153,8 +153,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             case R.id.saltar:
-                Intent intencion3 = new Intent(getApplication(), ventanaseleccion.class);
-                startActivity(intencion3);
+                    Intent intencion3 = new Intent(getApplication(), ventanaseleccion.class);
+                    startActivity(intencion3);
         }
 
 
