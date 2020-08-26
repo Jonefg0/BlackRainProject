@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="5dp"></View>
+
+    <TextView
+        android:id="@+id/textViewtitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Artículo"
+        android:textSize="24dp"></TextView>
+    <TextView
+        android:id="@+id/textViewcantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cantidad"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"></TextView>
+    <TextView
+        android:id="@+id/textViewprecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="precio"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"></TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="5dp"></View>
+</androidx.appcompat.widget.LinearLayoutCompat>
+

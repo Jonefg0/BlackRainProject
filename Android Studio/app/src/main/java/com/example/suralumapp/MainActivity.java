@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     //defining view objects
     private EditText TextEmail;
     private EditText TextPassword;
-    private Button btnRegistrar,btnLogin;
+    private Button btnRegistrar,btnLogin,saltar;
     private ProgressDialog progressDialog;
 
 
@@ -43,11 +43,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         TextPassword = (EditText) findViewById(R.id.login_passtext);
         btnRegistrar = (Button) findViewById(R.id.login_registrarbutton);
         btnLogin = (Button) findViewById(R.id.login_loginbutton);
+        saltar = (Button) findViewById(R.id.saltar);
         progressDialog = new ProgressDialog(this);
 
         //attaching listener to button
         btnRegistrar.setOnClickListener(this);
         btnLogin.setOnClickListener(this);
+        saltar.setOnClickListener(this);
     }
 
     private void registrarUsuario(){
@@ -149,6 +151,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.login_loginbutton:
                 loguearUsuario();
                 break;
+
+            case R.id.saltar:
+                Intent intencion3 = new Intent(getApplication(), ventanaseleccion.class);
+                startActivity(intencion3);
         }
 
 
